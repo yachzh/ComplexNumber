@@ -1,5 +1,5 @@
-# Complex Number Maven Project
-===========================
+# Complex Number
+---------------
 
 ## Introduction
 ---------------
