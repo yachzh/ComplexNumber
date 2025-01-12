@@ -6,6 +6,8 @@ public class ComplexNumberDemo {
       ComplexNumber result = z.pow(4);
       System.out.println("z = " + z);
       System.out.println("z**4 = " + result); // answer: -8 - 13.856i
+      System.out.println("argz = " + z.arg());
+      System.out.println("Modulus of z: " + z.abs());
       ComplexNumber zzbar = z.multiply(z.conj());
       System.out.println("z * conj_z = " + zzbar);
       ComplexNumber a = new ComplexNumber(2, -3);

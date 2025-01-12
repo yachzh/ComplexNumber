@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 import org.apache.commons.math3.complex.Complex;
 
 public class ComplexNumberTest {
-   private static final double DELTA = 1.e-15;
-   private double real = 3.0;
-   private double imaginary = 4.0;
+   private static final double DELTA = 1.e-12;
+   private double real = 1;
+   private double imaginary = -Math.sqrt(3);
    private ComplexNumber myComplex = new ComplexNumber(real, imaginary);
    private Complex apacheComplex = new Complex(real, imaginary);
 

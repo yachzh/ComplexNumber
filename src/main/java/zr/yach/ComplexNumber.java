@@ -22,18 +22,7 @@ public class ComplexNumber {
    }
 
    public double arg() {
-      double theta = Math.atan(imaginaryPart / realPart);
-
-      if (realPart < 0) {
-         if (imaginaryPart > 0) {
-            return theta + Math.PI;
-         } else {
-            return theta - Math.PI;
-         }
-      } else {
-         return theta;
-      }
-
+      return Math.atan2(imaginaryPart, realPart);
    }
 
    public ComplexNumber conj() {
